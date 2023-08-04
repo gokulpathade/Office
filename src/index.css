@@ -1,0 +1,286 @@
+
+
+
+.body {
+  display: block;
+  background: linear-gradient(360deg,
+  #ca5e46 20%,
+  /* #f57255 20%, #9c0202df 50%, */
+  #982103 40%, #1a22bc 100%,
+  /* #327AB2 60%, #327AB2 80%, */
+  #0a2282 80%);
+  /* width: 100%; */
+  /* height: 100%; */
+  /* background-color: rgb(37, 21, 23); */
+  text-align: center;
+
+  display: block;
+  position: relative; /* Add this to make the pseudo-element positioning work */
+  text-align: center;
+
+
+
+
+} 
+
+
+
+
+/* home page css here  */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.lif {
+  float: left;
+}
+
+.lif a {
+  display: block;
+  color: rgb(245, 238, 238);
+  padding: 14px 16px;
+  text-decoration:none;
+  padding-left: 230px;
+  text-transform: uppercase;
+}
+/* 
+.lif a:hover {
+  background-color:rgb(243, 222, 28);
+} */
+.listfirst{
+  /* background-color: #f3e40f; */
+  /* background-image: linear-gradient(90deg 
+  /* #e09730 20%, */
+  /* #f57255 20%, #973217  */
+  /* #05145889 40%, #1a22bc 100% */
+  /* #327AB2 60%, #327AB2 80%, */
+  /* #0a2282 80%); */ 
+
+  color:white;
+  /* background-color: rgb(37, 21, 23); */
+  text-align: center;
+  /* text-decoration-color: white; */
+}
+
+
+lebal{
+  padding: 100px;
+}
+
+
+
+
+/* footer page css */
+footer{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* padding-left: 230px; */
+  text-transform: uppercase;
+}
+
+
+/* registration form css */
+
+*[role="form"] {
+  box-shadow: #f8f8f8 ;
+box-shadow: 3px 2px 4px 4px;
+ max-width: 530px;
+ padding: 15px;
+ margin: 0 auto;
+ border-radius: 0.3em;
+ background-color: #ebdddd;
+}
+
+*[role="form"] h2 { 
+ font-family: 'Open Sans' , sans-serif;
+ font-size: 40px;
+ font-weight: 600;
+ box-shadow: #f8f8f8 ;
+ box-shadow: 3px 2px 4px 4px;
+ /* color: #271010; */
+ margin-top: 5%;
+ text-align: center;
+ text-transform: uppercase;
+ letter-spacing: 4px;
+}
+
+
+
+
+
+
+/* login Form Csss */
+
+
+body {
+  /* background-image: linear-gradient(90deg,
+  #F6D6A8 20%,
+  #F5BA55 20%, #F5BA55 40%,
+  #F09741 40%, #F09741 60%,
+  #327AB2 60%, #327AB2 80%,
+  #3A94F6 80%); */
+  background:#eae6e6;
+}
+#login {
+-webkit-perspective: 1000px;
+-moz-perspective: 1000px;
+perspective: 1000px;
+margin-top:50px;
+margin-left:30%;
+}
+.login {
+font-family: 'Josefin Sans', sans-serif;
+-webkit-transition: .3s;
+-moz-transition: .3s;
+transition: .3s;
+-webkit-transform: rotateY(40deg);
+-moz-transform: rotateY(40deg);
+transform: rotateY(40deg);
+}
+.login:hover {
+-webkit-transform: rotate(0);
+-moz-transform: rotate(0);
+transform: rotate(0);
+}
+.login article {
+
+}
+.login .form-group {
+margin-bottom:17px;
+}
+.login .form-control,
+.login .btn {
+border-radius:0;
+}
+.login .btn {
+text-transform:uppercase;
+letter-spacing:3px;
+}
+.input-group-addon {
+border-radius:0;
+color:#fff;
+background:#f3aa0c;
+border:#f3aa0c;
+}
+.forgot {
+font-size:16px;
+}
+.forgot a {
+color:#333;
+}
+.forgot a:hover {
+color:#5cb85c;
+}
+
+#inner-wrapper, #contact-us .contact-form, #contact-us .our-address {
+  color: #1d1d1d;
+  font-size: 19px;
+  line-height: 1.7em;
+  font-weight: 300;
+  padding: 50px;
+  background: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 100px;
+}
+.input-group-addon {
+  border-radius: 0;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+  color: #fff;
+  background: #f3aa0c;
+  border: #f3aa0c;
+      border-right-color: rgb(243, 170, 12);
+      border-right-style: none;
+      border-right-width: medium;
+}
+
+
+
+
+
+.custom-icon-button {
+  width: 50px; /* Set the desired width */
+  height: 20px; /* Set the desired height */
+}
+
+
+
+
+
+
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.container td, .container th {
+  border: 0px solid #ddd;
+  padding:0px;
+}
+
+.container tr:nth-child(even){background-color: #f2f2f2;}
+
+.container tr:hover {background-color: #ddd;}
+
+.container th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+.h1{
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/* SIDE NAV BAR  */
+
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+  background: linear-gradient(360deg,
+  #ca5e46 20%,
+  /* #f57255 20%, #9c0202df 50%, */
+  #982103 40%, #1a22bc 100%,
+  /* #327AB2 60%, #327AB2 80%, */
+  #0a2282 80%)!important;
+  color: white !important;
+}
+
+
+
+
+
+/* NAVBAR CSS HERE */
+
+
+.css-nz47g-MuiPaper-root-MuiAppBar-root{
+  background: linear-gradient(360deg,
+  #250490 20%,
+  /* #f57255 20%, #9c0202df 50%, */
+  /* #982103 40%, #1a22bc 100%, */
+  /* #327AB2 60%, #327AB2 80%, */
+  #b71911 80%)!important;
+  color: white !important;
+}
+/* 
+.css-zxdg2z {
+  padding: 260px !important;
+} */
